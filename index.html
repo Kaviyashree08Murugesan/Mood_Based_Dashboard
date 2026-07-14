@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Focus Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Mood Focus Dashboard</h1>
+
+        <p>Select your current mood</p>
+
+        <div class="buttons">
+
+            <button onclick="changeMood('happy')">😊 Happy</button>
+
+            <button onclick="changeMood('tired')">😴 Tired</button>
+
+            <button onclick="changeMood('stress')">😰 Stressed</button>
+
+            <button onclick="changeMood('motivated')">💪 Motivated</button>
+
+        </div>
+
+        <div class="card">
+
+            <h2 id="title">Welcome!</h2>
+
+            <p id="quote">
+                Click a mood to begin.
+            </p>
+
+            <h3>Music Suggestion</h3>
+
+            <p id="music">----</p>
+
+            <h3>Productivity Tip</h3>
+
+            <p id="tip">----</p>
+
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
